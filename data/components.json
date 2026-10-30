@@ -1,0 +1,78 @@
+[
+  {
+    "part_number": "RES-A-1000",
+    "type": "resistor",
+    "description": "Original 1 k\u03a9 resistor",
+    "resistance_ohm": 1000,
+    "tolerance_percent": 1,
+    "power_w": 0.25,
+    "max_voltage_v": 200,
+    "operating_temp_min_c": -55,
+    "operating_temp_max_c": 155,
+    "package": "0603",
+    "datasheet": "Synthetic datasheet: RES-A-1000"
+  },
+  {
+    "part_number": "RES-B-1000",
+    "type": "resistor",
+    "description": "Candidate 1 k\u03a9 resistor, higher power rating",
+    "resistance_ohm": 1000,
+    "tolerance_percent": 1,
+    "power_w": 0.5,
+    "max_voltage_v": 200,
+    "operating_temp_min_c": -55,
+    "operating_temp_max_c": 155,
+    "package": "0603",
+    "datasheet": "Synthetic datasheet: RES-B-1000"
+  },
+  {
+    "part_number": "RES-C-1000",
+    "type": "resistor",
+    "description": "Candidate 1 k\u03a9 resistor with lower power rating",
+    "resistance_ohm": 1000,
+    "tolerance_percent": 5,
+    "power_w": 0.125,
+    "max_voltage_v": 100,
+    "operating_temp_min_c": -40,
+    "operating_temp_max_c": 125,
+    "package": "0603",
+    "datasheet": "Synthetic datasheet: RES-C-1000"
+  },
+  {
+    "part_number": "RES-D-1000",
+    "type": "resistor",
+    "description": "Candidate with missing maximum voltage",
+    "resistance_ohm": 1000,
+    "tolerance_percent": 1,
+    "power_w": 0.5,
+    "max_voltage_v": null,
+    "operating_temp_min_c": -55,
+    "operating_temp_max_c": 155,
+    "package": "0603",
+    "datasheet": "Synthetic datasheet: RES-D-1000 (incomplete)"
+  },
+  {
+    "part_number": "CAP-A-10U",
+    "type": "capacitor",
+    "description": "Original 10 \u00b5F capacitor",
+    "capacitance_uf": 10,
+    "tolerance_percent": 10,
+    "voltage_rating_v": 16,
+    "operating_temp_min_c": -40,
+    "operating_temp_max_c": 85,
+    "package": "0805",
+    "datasheet": "Synthetic datasheet: CAP-A-10U"
+  },
+  {
+    "part_number": "CAP-B-10U",
+    "type": "capacitor",
+    "description": "Candidate 10 \u00b5F capacitor with higher voltage rating",
+    "capacitance_uf": 10,
+    "tolerance_percent": 10,
+    "voltage_rating_v": 25,
+    "operating_temp_min_c": -40,
+    "operating_temp_max_c": 105,
+    "package": "0805",
+    "datasheet": "Synthetic datasheet: CAP-B-10U"
+  }
+]
